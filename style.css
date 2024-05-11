@@ -173,7 +173,7 @@ li {
   background-color: rgb(46, 192, 143);
 }
 
-.fa-clock {
+#heading>.fa-clock {
   font-size: xx-large;
 }
 
@@ -362,7 +362,7 @@ li {
 
 /* newslletter */
 
-.newsletter-heading{
+.newsletter-heading {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -372,22 +372,22 @@ li {
   margin: 20px 0px;
 }
 
-.newsletter-heading>h2{
-   color: aqua;
+.newsletter-heading > h2 {
+  color: aqua;
 }
 
-.newsletter-container{
- display: flex;
- flex-wrap: wrap;
- justify-content: space-evenly;
+.newsletter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-#newsletter-card>img{
+#newsletter-card > img {
   width: 300px;
   height: 320px;
 }
 
-#newsletter-card{
+#newsletter-card {
   display: flex;
   align-items: center;
   background-color: rgb(229, 253, 253);
@@ -398,16 +398,16 @@ li {
   overflow: hidden;
 }
 
-#newsletter-content{
+#newsletter-content {
   padding: 30px;
   text-transform: capitalize;
 }
 
-#newsletter-content>h2{
+#newsletter-content > h2 {
   font-size: larger;
 }
 
-#newsletter-content>button{
+#newsletter-content > button {
   background-color: aqua;
   color: white;
   padding: 5px 15px;
@@ -416,18 +416,18 @@ li {
 }
 
 /* patient-testimonial */
-.testimonial-heading>h2{
- color: aqua;
- text-transform: capitalize;
- margin-left: 20px;
-}
-
-.testimonial-heading>h1{
+.testimonial-heading > h2 {
+  color: aqua;
   text-transform: capitalize;
   margin-left: 20px;
 }
 
-.medical-patient{
+.testimonial-heading > h1 {
+  text-transform: capitalize;
+  margin-left: 20px;
+}
+
+.medical-patient {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -436,14 +436,14 @@ li {
   background-color: rgb(229, 253, 253);
 }
 
-.testimonial-container{
+.testimonial-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
 
-#testimonial-card{
+#testimonial-card {
   display: flex;
   position: relative;
   height: 300px;
@@ -451,17 +451,17 @@ li {
   margin: 0px 20px;
 }
 
-#testimonial-card>img{
+#testimonial-card > img {
   position: absolute;
   border-radius: 50px;
-  width: 100px; 
+  width: 100px;
   height: 100px;
   left: 150px;
   top: 50px;
   z-index: 1;
 }
 
-#testimonial-content{
+#testimonial-content {
   position: absolute;
   background-color: white;
   text-align: center;
@@ -474,7 +474,7 @@ li {
 
 /* location */
 
-.our-location{
+.our-location {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -482,7 +482,7 @@ li {
   text-transform: capitalize;
 }
 
-#forms{
+#forms {
   background-color: rgb(229, 253, 253);
   text-align: center;
   width: 500px;
@@ -491,14 +491,14 @@ li {
   border-radius: 20px;
 }
 
-#forms>input{
+#forms > input {
   padding: 10px 20px;
   margin: 5px 0px;
   text-transform: capitalize;
   border-radius: 10px;
-} 
+}
 
-.location-heading{
+.location-heading {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -506,75 +506,75 @@ li {
   margin-top: 20px;
 }
 
-.location-heading>h2{
+.location-heading > h2 {
   color: aqua;
   text-transform: capitalize;
- }
- 
- .location-heading>h1{
-   text-transform: capitalize;
- }
+}
 
- /* footer */
+.location-heading > h1 {
+  text-transform: capitalize;
+}
 
- .footer-main-container{
+/* footer */
+
+.footer-main-container {
   display: flex;
   justify-content: space-evenly;
   background-color: darkblue;
-  background-image: url('./image/footer_bg.jpg');
+  background-image: url("./image/footer_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: contain;
   color: white;
   height: 400px;
   width: 100%;
- }
+}
 
- footer h2{
+footer h2 {
   text-transform: capitalize;
   padding-bottom: 20px;
- }
+}
 
- footer p{
+footer p {
   font-size: large;
- }
+}
 
- #medisupport{
-   width: 400px;
-   height: 300px;
-   padding: 30px;
- }
-
- #medisupport>i{
-  font-size: large;
- }
-
- #our-gallery{
+#medisupport {
   width: 400px;
   height: 300px;
   padding: 30px;
- }
+}
 
- #gallery>img{
-   width: 100px;
-   height: 100px;
-   border-radius: 10px;
- }
+#medisupport > i {
+  font-size: large;
+}
 
- #contact-us{
+#our-gallery {
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+}
+
+#gallery > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+#contact-us {
   width: 400px;
   height: 300px;
   padding: 30px;
   line-height: 40px;
- }
+}
 
- #newsletter{
+#newsletter {
   width: 400px;
   height: 300px;
   padding: 30px;
- }
+}
 
-.news-forms>input{
+.news-forms > input {
   padding: 10px 15px;
   border-radius: 10px;
 }
