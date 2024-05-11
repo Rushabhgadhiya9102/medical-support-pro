@@ -255,6 +255,14 @@ li {
   cursor: pointer;
 }
 
+/* about-us-2 */
+
+.timing-2{
+  display: none;
+}
+
+
+
 /* doctor-info */
 
 .doctors-info {
@@ -577,4 +585,140 @@ footer p {
 .news-forms > input {
   padding: 10px 15px;
   border-radius: 10px;
+}
+
+
+/* -------------------------------------media-query-------------------------------- */
+
+@media(max-width: 600px){
+
+  /* header */
+  
+  header{
+    z-index: 10;
+    position: fixed;
+  }
+
+  #location-info{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 650px;
+    height: 70px;
+    align-items: center;
+    font-size: larger;
+  }
+
+  /* location */
+  
+  .location{
+    display: none;
+    
+  }
+
+  /* navigation */
+
+  .navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 50px;
+    font-size: large;  
+    position: fixed;
+    width: 650px;  
+  }
+  
+  .nav{
+    display: flex;
+    font-size: larger;
+    gap: 30px;
+  }
+
+  .nav-icon{
+    margin-left: 40px;
+    font-size: larger;
+    gap: 40px;
+  }
+
+  /* main-body */
+
+  .wrapper {
+    width: 360px;
+    position: relative;
+  }
+
+  .wrapper>img{
+    width: 650px;
+    height: 550px;
+  }
+
+  #content{
+    width: 360px;
+    font-size: small;
+    margin-top: -350px;
+  }
+
+  .timing{
+    display: none;
+  }
+  
+  .timing-2{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+/* cards */
+
+  .cards-2{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  #card-content-2{
+    display: flex;
+    gap: 40px;
+    line-height: 40px;
+  }
+
+  #heading-2{
+    display: flex;
+    gap: 10px;
+  }
+
+  .fa-clock {
+    font-size: larger;
+  }
+  
+  .fa-phone-volume {
+    font-size: larger;
+  }
+  
+  .fa-heart-pulse {
+    font-size: larger;
+  }
+
+  .cards-2:nth-child(1){
+    background-color: rgb(1, 190, 190);
+  }
+  .cards-2:nth-child(2){
+    background-color: aquamarine;
+  }
+  .cards-2:nth-child(3){
+    background-color: rgb(0, 0, 160);
+  }
+ 
+  /* about-us */
+  
 }
