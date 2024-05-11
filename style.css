@@ -304,7 +304,7 @@ li {
 }
 
 .doctors-desk:hover .color {
-  opacity: 0.7;
+  opacity: 1;
   height: 300px;
   transition: height 2s;
 }
@@ -592,11 +592,24 @@ footer p {
 
 @media(max-width: 600px){
 
+  *{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+  }
+
   /* header */
+
+  body{
+    
+    width: 650px;
+  }
   
   header{
     z-index: 10;
     position: fixed;
+    width: 650px;
+    
   }
 
   #location-info{
@@ -608,6 +621,7 @@ footer p {
     height: 70px;
     align-items: center;
     font-size: larger;
+    
   }
 
   /* location */
@@ -626,37 +640,43 @@ footer p {
     line-height: 50px;
     font-size: large;  
     position: fixed;
-    width: 650px;  
+    width: 650px;
+      
   }
   
   .nav{
     display: flex;
     font-size: larger;
     gap: 30px;
+    
   }
 
   .nav-icon{
     margin-left: 40px;
     font-size: larger;
     gap: 40px;
+    
   }
 
   /* main-body */
 
   .wrapper {
-    width: 360px;
+    width: 650px;
     position: relative;
+    /
   }
 
   .wrapper>img{
     width: 650px;
     height: 550px;
+    
   }
 
   #content{
     width: 360px;
     font-size: small;
     margin-top: -350px;
+    
   }
 
   .timing{
@@ -669,6 +689,7 @@ footer p {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    
   }
 
 /* cards */
@@ -684,6 +705,7 @@ footer p {
     color: white;
     font-size: larger;
     font-weight: bold;
+    
   }
 
   #card-content-2{
@@ -720,5 +742,153 @@ footer p {
   }
  
   /* about-us */
+.about-banner{
+   display: flex;
+   width: 650px;
+   margin: 5% 0%;
   
+}
+  .about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 1000px;
+  }
+
+/* doctor-info */
+
+  .doc-heading{
+    width: 600px;
+    text-align: center;
+  }
+  .doc-heading>h2{
+    text-transform: capitalize;
+  }
+
+  .doctors-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 650px;
+    height: 1000px;
+  }
+
+  .doctors-desk{
+    width: 280px;
+    height: 300px;
+  }
+
+  .doctors-desk>img{
+    width: 280px;
+    height: 300px;
+  }
+
+  #doctor-content{
+    display: flex;
+    align-items: center;
+    height: 35vh;
+  }
+
+  .color{
+    width: 280px;
+  }
+
+  /* facilities */
+
+  .facilities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+    height: 1000px;
+    margin: 10% 0%;
+  }
+
+  .facility-container{
+    width: 650px;
+  }
+
+  .facilities>img{
+    width: 650px;
+    height: 500px;
+  }
+
+  /* news-letter */
+
+  .newsletter-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+  }
+
+  .newsletter-container{
+    width: 650px;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    margin: 10% 0%;
+  }
+
+  /* testimonial */
+
+  .testimonial-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -70%;
+  }
+
+  .medical-patient {
+    width: 650px;
+    height: 140vh;
+    
+}
+
+.testimonial-container{
+  height: 60vh;
+}
+
+  #testimonial-content{
+    height: 230px;
+  }
+  
+   /*our-location */
+   
+    .our-location{
+      display: flex;
+      flex-direction: column;
+      width: 650px;
+      gap: 20px;
+    }
+
+    #forms{
+      height: 400px;
+    }
+
+    #forms>input{
+      text-align: center;
+      justify-content: center;
+      width: 350px;
+    }
+
+    .location-heading{
+      display: flex;
+      justify-content: center;
+      width: 650px;
+      font-size: larger;
+    }
+
+    /* footer */
+    
+    .footer-main-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 1000px;
+      width: 650px;
+    }
+
 }
