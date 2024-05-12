@@ -2,6 +2,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  /* outline: 1px solid red; */
 }
 
 /* header */
@@ -173,7 +174,7 @@ li {
   background-color: rgb(46, 192, 143);
 }
 
-#heading>.fa-clock {
+#heading > .fa-clock {
   font-size: xx-large;
 }
 
@@ -257,11 +258,9 @@ li {
 
 /* about-us-2 */
 
-.timing-2{
+.timing-2 {
   display: none;
 }
-
-
 
 /* doctor-info */
 
@@ -330,11 +329,6 @@ li {
   font-size: x-large;
 }
 
-.best-doc {
-  width: 400px;
-  height: 400px;
-  border: 1px solid #000;
-}
 
 /* facilities */
 
@@ -587,32 +581,20 @@ footer p {
   border-radius: 10px;
 }
 
-
 /* -------------------------------------media-query-------------------------------- */
 
-@media(max-width: 600px){
-
-  *{
-    box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
-  }
+@media (max-width: 600px) {
+  
 
   /* header */
-
-  body{
-    
-    width: 650px;
-  }
-  
-  header{
+  header {
     z-index: 10;
     position: fixed;
     width: 650px;
-    
+
   }
 
-  #location-info{
+  #location-info {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -621,80 +603,69 @@ footer p {
     height: 70px;
     align-items: center;
     font-size: larger;
-    
   }
 
   /* location */
-  
-  .location{
+
+  .location {
     display: none;
-    
   }
 
   /* navigation */
 
-  .navigation{
+  .navigation {
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 50px;
-    font-size: large;  
+    font-size: large;
     position: fixed;
     width: 650px;
-      
   }
-  
-  .nav{
+
+  .nav {
     display: flex;
     font-size: larger;
     gap: 30px;
-    
   }
 
-  .nav-icon{
-    margin-left: 40px;
+  .nav-icon {
     font-size: larger;
     gap: 40px;
-    
   }
 
   /* main-body */
 
   .wrapper {
     width: 650px;
-    position: relative;
-    /
   }
 
-  .wrapper>img{
+  .wrapper > img {
     width: 650px;
     height: 550px;
-    
   }
 
-  #content{
+  #content {
     width: 360px;
     font-size: small;
     margin-top: -350px;
-    
   }
 
-  .timing{
+  .timing {
     display: none;
   }
-  
-  .timing-2{
+
+  .timing-2 {
     width: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    
   }
 
-/* cards */
+  /* cards */
 
-  .cards-2{
+  .cards-2 {
     width: 500px;
     height: 300px;
     display: flex;
@@ -705,16 +676,17 @@ footer p {
     color: white;
     font-size: larger;
     font-weight: bold;
-    
   }
 
-  #card-content-2{
+  #card-content-2 {
     display: flex;
+    align-items: center;
+    height: 250px;
     gap: 40px;
     line-height: 40px;
   }
 
-  #heading-2{
+  #heading-2 {
     display: flex;
     gap: 10px;
   }
@@ -722,33 +694,32 @@ footer p {
   .fa-clock {
     font-size: larger;
   }
-  
+
   .fa-phone-volume {
     font-size: larger;
   }
-  
+
   .fa-heart-pulse {
     font-size: larger;
   }
 
-  .cards-2:nth-child(1){
+  .cards-2:nth-child(1) {
     background-color: rgb(1, 190, 190);
   }
-  .cards-2:nth-child(2){
+  .cards-2:nth-child(2) {
     background-color: aquamarine;
   }
-  .cards-2:nth-child(3){
+  .cards-2:nth-child(3) {
     background-color: rgb(0, 0, 160);
   }
- 
+
   /* about-us */
-.about-banner{
-   display: flex;
-   width: 650px;
-   margin: 5% 0%;
-  
-}
-  .about{
+  .about-banner {
+    display: flex;
+    width: 650px;
+    margin: 5% 0%;
+  }
+  .about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -756,17 +727,18 @@ footer p {
     height: 1000px;
   }
 
-/* doctor-info */
+  /* doctor-info */
 
-  .doc-heading{
+  .doc-heading {
     width: 600px;
     text-align: center;
   }
-  .doc-heading>h2{
+
+  .doc-heading > h2 {
     text-transform: capitalize;
   }
 
-  .doctors-info{
+  .doctors-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -775,29 +747,29 @@ footer p {
     height: 1000px;
   }
 
-  .doctors-desk{
+  .doctors-desk {
     width: 280px;
     height: 300px;
   }
 
-  .doctors-desk>img{
+  .doctors-desk > img {
     width: 280px;
     height: 300px;
   }
 
-  #doctor-content{
+  #doctor-content {
     display: flex;
     align-items: center;
     height: 35vh;
   }
 
-  .color{
+  .color {
     width: 280px;
   }
 
   /* facilities */
 
-  .facilities{
+  .facilities {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -806,25 +778,25 @@ footer p {
     margin: 10% 0%;
   }
 
-  .facility-container{
+  .facility-container {
     width: 650px;
   }
 
-  .facilities>img{
+  .facilities > img {
     width: 650px;
     height: 500px;
   }
 
   /* news-letter */
 
-  .newsletter-heading{
+  .newsletter-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 650px;
   }
 
-  .newsletter-container{
+  .newsletter-container {
     width: 650px;
     height: 200vh;
     display: flex;
@@ -834,7 +806,7 @@ footer p {
 
   /* testimonial */
 
-  .testimonial-heading{
+  .testimonial-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -844,51 +816,49 @@ footer p {
   .medical-patient {
     width: 650px;
     height: 140vh;
-    
-}
+  }
 
-.testimonial-container{
-  height: 60vh;
-}
+  .testimonial-container{
+    height: 60vh;
+  }
 
-  #testimonial-content{
+  #testimonial-content {
     height: 230px;
   }
-  
-   /*our-location */
-   
-    .our-location{
-      display: flex;
-      flex-direction: column;
-      width: 650px;
-      gap: 20px;
-    }
 
-    #forms{
-      height: 400px;
-    }
+  /*our-location */
 
-    #forms>input{
-      text-align: center;
-      justify-content: center;
-      width: 350px;
-    }
+  .our-location {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    gap: 20px;
+  }
 
-    .location-heading{
-      display: flex;
-      justify-content: center;
-      width: 650px;
-      font-size: larger;
-    }
+  #forms {
+    height: 400px;
+  }
 
-    /* footer */
-    
-    .footer-main-container{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: 1000px;
-      width: 650px;
-    }
+  #forms > input {
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+  }
 
+  .location-heading {
+    display: flex;
+    justify-content: center;
+    width: 650px;
+    font-size: larger;
+  }
+
+  /* footer */
+
+  .footer-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    width: 650px;
+  }
 }
