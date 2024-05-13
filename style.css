@@ -583,8 +583,7 @@ footer p {
 
 /* -------------------------------------media-query-------------------------------- */
 
-@media (max-width: 600px) {
-  
+@media (max-width: 650px) {
 
   /* header */
   header {
@@ -595,6 +594,7 @@ footer p {
   }
 
   #location-info {
+    overflow-x: hidden;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -614,6 +614,7 @@ footer p {
   /* navigation */
 
   .navigation {
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -624,6 +625,7 @@ footer p {
   }
 
   .nav {
+    overflow-x: hidden;
     display: flex;
     font-size: larger;
     gap: 30px;
@@ -637,6 +639,7 @@ footer p {
   /* main-body */
 
   .wrapper {
+    overflow-x: hidden;
     width: 650px;
   }
 
@@ -646,6 +649,7 @@ footer p {
   }
 
   #content {
+    overflow-x: hidden;
     width: 360px;
     font-size: small;
     margin-top: -350px;
@@ -656,6 +660,7 @@ footer p {
   }
 
   .timing-2 {
+    overflow-x: hidden;
     width: 650px;
     display: flex;
     flex-direction: column;
@@ -715,6 +720,7 @@ footer p {
 
   /* about-us */
   .about-banner {
+    overflow-x: hidden;
     display: flex;
     width: 650px;
     margin: 5% 0%;
@@ -748,28 +754,33 @@ footer p {
   }
 
   .doctors-desk {
+    overflow-x: hidden;
     width: 280px;
     height: 300px;
   }
 
   .doctors-desk > img {
+    overflow-x: hidden;
     width: 280px;
     height: 300px;
   }
 
   #doctor-content {
+    overflow-x: hidden;
     display: flex;
     align-items: center;
     height: 35vh;
   }
 
   .color {
+    overflow-x: hidden;
     width: 280px;
   }
 
   /* facilities */
 
   .facilities {
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -779,10 +790,12 @@ footer p {
   }
 
   .facility-container {
+    overflow-x: hidden;
     width: 650px;
   }
 
   .facilities > img {
+    overflow-x: hidden;
     width: 650px;
     height: 500px;
   }
@@ -790,6 +803,7 @@ footer p {
   /* news-letter */
 
   .newsletter-heading {
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -797,6 +811,7 @@ footer p {
   }
 
   .newsletter-container {
+    overflow-x: hidden;
     width: 650px;
     height: 200vh;
     display: flex;
@@ -807,6 +822,7 @@ footer p {
   /* testimonial */
 
   .testimonial-heading {
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -814,21 +830,25 @@ footer p {
   }
 
   .medical-patient {
+    overflow-x: hidden;
     width: 650px;
     height: 140vh;
   }
 
   .testimonial-container{
+    overflow-x: hidden;
     height: 60vh;
   }
 
   #testimonial-content {
+    overflow-x: hidden;
     height: 230px;
   }
 
   /*our-location */
 
   .our-location {
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     width: 650px;
@@ -836,16 +856,19 @@ footer p {
   }
 
   #forms {
+    overflow-x: hidden;
     height: 400px;
   }
 
   #forms > input {
+    overflow-x: hidden;
     text-align: center;
     justify-content: center;
     width: 350px;
   }
 
   .location-heading {
+    overflow-x: hidden;
     display: flex;
     justify-content: center;
     width: 650px;
@@ -855,6 +878,7 @@ footer p {
   /* footer */
 
   .footer-main-container {
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
