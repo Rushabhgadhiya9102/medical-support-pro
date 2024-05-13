@@ -583,13 +583,13 @@ footer p {
 
 /* -------------------------------------media-query-------------------------------- */
 
-@media (max-width: 650px) {
+@media (max-width: 600px) {
 
   /* header */
   header {
     z-index: 10;
     position: fixed;
-    width: 650px;
+    width: 600px;
 
   }
 
@@ -598,8 +598,8 @@ footer p {
     background-color: white;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 650px;
+    gap: 10px;
+    width: 600px;
     height: 70px;
     align-items: center;
     font-size: larger;
@@ -621,14 +621,14 @@ footer p {
     line-height: 50px;
     font-size: large;
     position: fixed;
-    width: 650px;
+    width: 600px;
   }
 
   .nav {
     overflow-x: hidden;
     display: flex;
     font-size: larger;
-    gap: 30px;
+    gap: 20px;
   }
 
   .nav-icon {
@@ -640,19 +640,19 @@ footer p {
 
   .wrapper {
     overflow-x: hidden;
-    width: 650px;
+    width: 600px;
   }
 
   .wrapper > img {
-    width: 650px;
-    height: 550px;
+    width: 600px;
+    height: 500px;
   }
 
   #content {
     overflow-x: hidden;
     width: 360px;
     font-size: small;
-    margin-top: -350px;
+    margin-top: -300px;
   }
 
   .timing {
@@ -661,7 +661,8 @@ footer p {
 
   .timing-2 {
     overflow-x: hidden;
-    width: 650px;
+    margin-top: -80%;
+    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -712,7 +713,7 @@ footer p {
     background-color: rgb(1, 190, 190);
   }
   .cards-2:nth-child(2) {
-    background-color: aquamarine;
+    background-color: rgb(91, 225, 181);
   }
   .cards-2:nth-child(3) {
     background-color: rgb(0, 0, 160);
@@ -722,22 +723,23 @@ footer p {
   .about-banner {
     overflow-x: hidden;
     display: flex;
-    width: 650px;
-    margin: 5% 0%;
+    width: 600px;
+    margin: 10% 0%;
   }
   .about {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 600px;
+    width: 550px;
     height: 1000px;
   }
 
   /* doctor-info */
 
   .doc-heading {
-    width: 600px;
+    width: 550px;
     text-align: center;
+    font-size: large;
   }
 
   .doc-heading > h2 {
@@ -749,32 +751,29 @@ footer p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 10px;
-    width: 650px;
-    height: 1000px;
+    width: 600px;
+    height: 600px;
   }
 
   .doctors-desk {
-    overflow-x: hidden;
-    width: 280px;
-    height: 300px;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
   }
 
   .doctors-desk > img {
-    overflow-x: hidden;
-    width: 280px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 
   #doctor-content {
-    overflow-x: hidden;
     display: flex;
     align-items: center;
-    height: 35vh;
+    height: 30vh;
   }
 
   .color {
-    overflow-x: hidden;
-    width: 280px;
+    width: 250px;
   }
 
   /* facilities */
@@ -784,20 +783,21 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 650px;
-    height: 1000px;
+    width: 600px;
+    height: 950px;
+    font-size: large;
     margin: 10% 0%;
   }
 
   .facility-container {
     overflow-x: hidden;
-    width: 650px;
+    width: 600px;
   }
 
   .facilities > img {
     overflow-x: hidden;
-    width: 650px;
-    height: 500px;
+    width: 600px;
+    height: 450px;
   }
 
   /* news-letter */
@@ -807,12 +807,12 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 650px;
+    width: 600px;
   }
 
   .newsletter-container {
-    overflow-x: hidden;
-    width: 650px;
+    overflow: hidden;
+    width: 600px;
     height: 200vh;
     display: flex;
     justify-content: center;
@@ -831,13 +831,12 @@ footer p {
 
   .medical-patient {
     overflow-x: hidden;
-    width: 650px;
+    width: 600px;
     height: 140vh;
   }
 
   .testimonial-container{
-    overflow-x: hidden;
-    height: 60vh;
+    height: 70vh;
   }
 
   #testimonial-content {
@@ -851,7 +850,7 @@ footer p {
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    width: 650px;
+    width: 600px;
     gap: 20px;
   }
 
@@ -871,18 +870,18 @@ footer p {
     overflow-x: hidden;
     display: flex;
     justify-content: center;
-    width: 650px;
+    width: 600px;
     font-size: larger;
   }
 
   /* footer */
 
   .footer-main-container {
-    overflow-x: hidden;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 1000px;
-    width: 650px;
+    width: 600px;
   }
 }
