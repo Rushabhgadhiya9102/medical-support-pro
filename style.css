@@ -2,8 +2,8 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  /* outline: 1px solid red; */
 }
+
 
 /* header */
 
@@ -109,7 +109,7 @@ li {
   width: 100%;
 }
 .wrapper > img {
-  margin-top: 110px;
+  margin-top: 90px;
   width: 100%;
   height: 600px;
 }
@@ -318,6 +318,7 @@ li {
 
 .doc-heading > h2 {
   color: aqua;
+  text-transform: capitalize;
 }
 
 .doc-heading > h1 {
@@ -585,6 +586,7 @@ footer p {
 
 @media (max-width: 600px) {
 
+
   /* header */
   header {
     z-index: 10;
@@ -614,7 +616,6 @@ footer p {
   /* navigation */
 
   .navigation {
-    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -625,10 +626,10 @@ footer p {
   }
 
   .nav {
-    overflow-x: hidden;
     display: flex;
     font-size: larger;
     gap: 20px;
+    z-index: 1;
   }
 
   .nav-icon {
