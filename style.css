@@ -105,7 +105,6 @@ li {
 
 .wrapper {
   position: relative;
-  height: 135vh;
   width: 100%;
 }
 .wrapper > img {
@@ -662,7 +661,6 @@ footer p {
 
   .timing-2 {
     overflow-x: hidden;
-    margin-top: -80%;
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -833,7 +831,7 @@ footer p {
   .medical-patient {
     overflow-x: hidden;
     width: 600px;
-    height: 140vh;
+    height: 170vh;
   }
 
   .testimonial-container{
