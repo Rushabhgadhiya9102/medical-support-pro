@@ -97,9 +97,9 @@ li {
   background-image: linear-gradient(to bottom, blue, aqua, aquamarine);
 }
 
-.dropdown:hover .item {
+/* .dropdown:hover .item {
   display: block;
-}
+} */
 
 /* container-box */
 
